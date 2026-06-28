@@ -1,0 +1,7 @@
+backend,contrast,routing_accuracy_delta_pct,routing_accuracy_ci95_low,routing_accuracy_ci95_high,state_retention_delta_pct,state_retention_ci95_low,state_retention_ci95_high,p50_latency_delta_ms,p50_latency_ci95_low,p50_latency_ci95_high,tokens_delta,tokens_ci95_low,tokens_ci95_high
+Gemini,MCLR vs MJ,-23.15,-23.15,-23.15,-6.25,-6.25,-6.25,-139.19,-236.96,-44.16,-80327,-80327,-80327
+Gemini,MCLR vs SJ,-23.15,-23.15,-23.15,-6.25,-6.25,-6.25,-147.73,-229.8,-67.81,-80327,-80327,-80327
+OpenAI,MCLR vs MJ,-27.16,-30.55,-23.76,-22.05,-26.91,-17.19,-382.19,-486.38,-278.0,-75774,-81316,-70121
+OpenAI,MCLR vs SJ,-27.39,-30.71,-24.15,-22.05,-26.91,-17.19,-379.98,-495.28,-266.92,-75780,-81351,-70154
+Llama,MCLR vs MJ,-59.49,-59.57,-59.34,-56.25,-56.25,-56.25,-57.58,-67.67,-47.73,-74636,-76444,-72825
+Llama,MCLR vs SJ,-59.57,-59.57,-59.57,-56.25,-56.25,-56.25,-61.21,-73.17,-49.49,-77634,-77640,-77628

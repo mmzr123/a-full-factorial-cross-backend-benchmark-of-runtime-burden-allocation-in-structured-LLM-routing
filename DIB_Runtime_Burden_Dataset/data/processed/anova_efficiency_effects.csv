@@ -1,0 +1,11 @@
+metric,effect,F_statistic,p_value,partial_eta_squared
+p50_latency_ms,Backend,689.38,<0.001,0.976
+p50_latency_ms,Mode,20.99,<0.001,0.649
+p50_latency_ms,Constraint,6.15,0.018,0.153
+p50_latency_ms,Transport,2.62,0.115,0.072
+p50_latency_ms,Backend x Mode,5.19,<0.001,0.478
+tokens_total,Backend,258.28,<0.001,0.938
+tokens_total,Mode,4929.32,<0.001,0.998
+tokens_total,Constraint,0.47,0.496,0.014
+tokens_total,Transport,3.73,0.062,0.099
+tokens_total,Backend x Mode,2.07,0.083,0.268

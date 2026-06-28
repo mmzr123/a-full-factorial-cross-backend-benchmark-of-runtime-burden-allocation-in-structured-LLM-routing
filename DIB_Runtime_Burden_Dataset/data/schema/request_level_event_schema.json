@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Runtime burden allocation request-level event schema",
+  "description": "Schema for sanitized per-request events that can be used when request-level records are available.",
+  "type": "object",
+  "required": [
+    "request_id",
+    "combination_id",
+    "backend",
+    "mode",
+    "constraint_setting",
+    "transport_setting",
+    "prompt_family",
+    "expected_route",
+    "emitted_route",
+    "format_compliant",
+    "routing_correct",
+    "latency_ms",
+    "tokens_total"
+  ],
+  "properties": {
+    "request_id": {
+      "type": "string"
+    },
+    "combination_id": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 48
+    },
+    "backend": {
+      "type": "string",
+      "enum": [
+        "Gemini",
+        "Llama",
+        "OpenAI"
+      ]
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "MJ",
+        "SJ",
+        "MJS",
+        "MCLR"
+      ]
+    },
+    "constraint_setting": {
+      "type": "string",
+      "enum": [
+        "limited",
+        "unlimited"
+      ]
+    },
+    "transport_setting": {
+      "type": "string",
+      "enum": [
+        "non_stream",
+        "stream"
+      ]
+    },
+    "prompt_family": {
+      "type": "string",
+      "description": "Sanitized family label for the routing prompt."
+    },
+    "expected_route": {
+      "type": "string",
+      "enum": [
+        "chat",
+        "task",
+        "dev",
+        "doc"
+      ]
+    },
+    "emitted_route": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "chat",
+        "task",
+        "dev",
+        "doc",
+        null
+      ]
+    },
+    "format_compliant": {
+      "type": "boolean"
+    },
+    "routing_correct": {
+      "type": "boolean"
+    },
+    "state_retained": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "latency_ms": {
+      "type": "number",
+      "minimum": 0
+    },
+    "tokens_total": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "failure_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sanitized_response_excerpt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

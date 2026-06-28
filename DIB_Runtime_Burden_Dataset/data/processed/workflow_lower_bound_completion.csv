@@ -1,0 +1,13 @@
+backend,mode,workflow_lower_bound_completion_pct
+Gemini,MJ,61.11
+Gemini,SJ,61.11
+Gemini,MJS,17.03
+Gemini,MCLR,31.71
+OpenAI,MJ,57.53
+OpenAI,SJ,57.76
+OpenAI,MJS,13.02
+OpenAI,MCLR,8.31
+Llama,MJ,48.22
+Llama,SJ,51.16
+Llama,MJS,0.0
+Llama,MCLR,0.0

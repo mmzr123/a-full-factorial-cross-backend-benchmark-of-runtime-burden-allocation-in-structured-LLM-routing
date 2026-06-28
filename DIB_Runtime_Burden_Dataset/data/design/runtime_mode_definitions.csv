@@ -1,0 +1,5 @@
+mode,expanded_label,serialization_burden,realization_locus,package_description,transport_handling
+MJ,Minimal JSON,Low JSON serialization,Model emits final JSON,Small token budget direct JSON baseline,stream/non-stream overlay applied separately
+SJ,Structured JSON,High-budget JSON serialization,Model emits final JSON,Relaxed budget direct JSON baseline,stream/non-stream overlay applied separately
+MJS,JSON package with historical streaming label,JSON serialization,Model emits final JSON,Historical mode label retained for continuity,stream/non-stream overlay applied separately
+MCLR,Minimal compact local reconstruction,Compact intermediate code,Deterministic local reconstruction,Compact emission plus local schema realization,stream/non-stream overlay applied separately

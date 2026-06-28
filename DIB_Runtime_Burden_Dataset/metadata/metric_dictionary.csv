@@ -1,0 +1,7 @@
+field_name,short_name,unit,operational_definition
+format_compliance_pct,FC,Percentage,Whether the emitted control record was parseable and schema-valid.
+routing_accuracy_pct,RA,Percentage,Whether the route label matched the benchmark key.
+state_retention_pct,SR,Percentage,Whether state-sensitive or interrupted cases were handled correctly where applicable.
+p50_latency_ms,LAT,Milliseconds,Median full-response latency; downstream execution cannot proceed until the complete control record is available.
+tokens_total,TOK,Count,Total model token consumption associated with the completed requests in the summarized cell.
+workflow_lower_bound_completion_pct,WLC,Percentage,"Conservative lower-bound proxy: max(0, FC + RA + SR - 200) for three-event slices, or max(0, FC + RA - 100) when state retention is not applicable."

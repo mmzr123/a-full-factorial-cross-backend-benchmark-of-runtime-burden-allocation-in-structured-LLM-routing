@@ -1,0 +1,49 @@
+combination_id,backend,mode,constraint_setting,transport_setting,planned_request_count,serialization_burden,realization_locus,runtime_package_description
+1,Gemini,MJ,limited,non_stream,324,Low JSON serialization,Model emits final JSON,Small token budget direct JSON baseline
+2,Gemini,MJ,limited,stream,324,Low JSON serialization,Model emits final JSON,Small token budget direct JSON baseline
+3,Gemini,MJ,unlimited,non_stream,324,Low JSON serialization,Model emits final JSON,Small token budget direct JSON baseline
+4,Gemini,MJ,unlimited,stream,324,Low JSON serialization,Model emits final JSON,Small token budget direct JSON baseline
+5,Gemini,SJ,limited,non_stream,324,High-budget JSON serialization,Model emits final JSON,Relaxed budget direct JSON baseline
+6,Gemini,SJ,limited,stream,324,High-budget JSON serialization,Model emits final JSON,Relaxed budget direct JSON baseline
+7,Gemini,SJ,unlimited,non_stream,324,High-budget JSON serialization,Model emits final JSON,Relaxed budget direct JSON baseline
+8,Gemini,SJ,unlimited,stream,324,High-budget JSON serialization,Model emits final JSON,Relaxed budget direct JSON baseline
+9,Gemini,MJS,limited,non_stream,324,JSON serialization,Model emits final JSON,Historical mode label retained for continuity
+10,Gemini,MJS,limited,stream,324,JSON serialization,Model emits final JSON,Historical mode label retained for continuity
+11,Gemini,MJS,unlimited,non_stream,324,JSON serialization,Model emits final JSON,Historical mode label retained for continuity
+12,Gemini,MJS,unlimited,stream,324,JSON serialization,Model emits final JSON,Historical mode label retained for continuity
+13,Gemini,MCLR,limited,non_stream,324,Compact intermediate code,Deterministic local reconstruction,Compact emission plus local schema realization
+14,Gemini,MCLR,limited,stream,324,Compact intermediate code,Deterministic local reconstruction,Compact emission plus local schema realization
+15,Gemini,MCLR,unlimited,non_stream,324,Compact intermediate code,Deterministic local reconstruction,Compact emission plus local schema realization
+16,Gemini,MCLR,unlimited,stream,324,Compact intermediate code,Deterministic local reconstruction,Compact emission plus local schema realization
+17,Llama,MJ,limited,non_stream,324,Low JSON serialization,Model emits final JSON,Small token budget direct JSON baseline
+18,Llama,MJ,limited,stream,324,Low JSON serialization,Model emits final JSON,Small token budget direct JSON baseline
+19,Llama,MJ,unlimited,non_stream,324,Low JSON serialization,Model emits final JSON,Small token budget direct JSON baseline
+20,Llama,MJ,unlimited,stream,324,Low JSON serialization,Model emits final JSON,Small token budget direct JSON baseline
+21,Llama,SJ,limited,non_stream,324,High-budget JSON serialization,Model emits final JSON,Relaxed budget direct JSON baseline
+22,Llama,SJ,limited,stream,324,High-budget JSON serialization,Model emits final JSON,Relaxed budget direct JSON baseline
+23,Llama,SJ,unlimited,non_stream,324,High-budget JSON serialization,Model emits final JSON,Relaxed budget direct JSON baseline
+24,Llama,SJ,unlimited,stream,324,High-budget JSON serialization,Model emits final JSON,Relaxed budget direct JSON baseline
+25,Llama,MJS,limited,non_stream,324,JSON serialization,Model emits final JSON,Historical mode label retained for continuity
+26,Llama,MJS,limited,stream,324,JSON serialization,Model emits final JSON,Historical mode label retained for continuity
+27,Llama,MJS,unlimited,non_stream,324,JSON serialization,Model emits final JSON,Historical mode label retained for continuity
+28,Llama,MJS,unlimited,stream,324,JSON serialization,Model emits final JSON,Historical mode label retained for continuity
+29,Llama,MCLR,limited,non_stream,324,Compact intermediate code,Deterministic local reconstruction,Compact emission plus local schema realization
+30,Llama,MCLR,limited,stream,324,Compact intermediate code,Deterministic local reconstruction,Compact emission plus local schema realization
+31,Llama,MCLR,unlimited,non_stream,324,Compact intermediate code,Deterministic local reconstruction,Compact emission plus local schema realization
+32,Llama,MCLR,unlimited,stream,324,Compact intermediate code,Deterministic local reconstruction,Compact emission plus local schema realization
+33,OpenAI,MJ,limited,non_stream,324,Low JSON serialization,Model emits final JSON,Small token budget direct JSON baseline
+34,OpenAI,MJ,limited,stream,324,Low JSON serialization,Model emits final JSON,Small token budget direct JSON baseline
+35,OpenAI,MJ,unlimited,non_stream,324,Low JSON serialization,Model emits final JSON,Small token budget direct JSON baseline
+36,OpenAI,MJ,unlimited,stream,324,Low JSON serialization,Model emits final JSON,Small token budget direct JSON baseline
+37,OpenAI,SJ,limited,non_stream,324,High-budget JSON serialization,Model emits final JSON,Relaxed budget direct JSON baseline
+38,OpenAI,SJ,limited,stream,324,High-budget JSON serialization,Model emits final JSON,Relaxed budget direct JSON baseline
+39,OpenAI,SJ,unlimited,non_stream,324,High-budget JSON serialization,Model emits final JSON,Relaxed budget direct JSON baseline
+40,OpenAI,SJ,unlimited,stream,324,High-budget JSON serialization,Model emits final JSON,Relaxed budget direct JSON baseline
+41,OpenAI,MJS,limited,non_stream,324,JSON serialization,Model emits final JSON,Historical mode label retained for continuity
+42,OpenAI,MJS,limited,stream,324,JSON serialization,Model emits final JSON,Historical mode label retained for continuity
+43,OpenAI,MJS,unlimited,non_stream,324,JSON serialization,Model emits final JSON,Historical mode label retained for continuity
+44,OpenAI,MJS,unlimited,stream,324,JSON serialization,Model emits final JSON,Historical mode label retained for continuity
+45,OpenAI,MCLR,limited,non_stream,324,Compact intermediate code,Deterministic local reconstruction,Compact emission plus local schema realization
+46,OpenAI,MCLR,limited,stream,324,Compact intermediate code,Deterministic local reconstruction,Compact emission plus local schema realization
+47,OpenAI,MCLR,unlimited,non_stream,324,Compact intermediate code,Deterministic local reconstruction,Compact emission plus local schema realization
+48,OpenAI,MCLR,unlimited,stream,324,Compact intermediate code,Deterministic local reconstruction,Compact emission plus local schema realization

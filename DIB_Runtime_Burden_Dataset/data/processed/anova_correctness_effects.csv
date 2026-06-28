@@ -1,0 +1,16 @@
+metric,effect,F_statistic,p_value,partial_eta_squared
+routing_accuracy_pct,Backend,334.53,<0.001,0.952
+routing_accuracy_pct,Mode,1519.07,<0.001,0.993
+routing_accuracy_pct,Constraint,7.11,0.012,0.173
+routing_accuracy_pct,Transport,0.01,0.937,0.0
+routing_accuracy_pct,Backend x Mode,136.52,<0.001,0.96
+state_retention_pct,Backend,242.28,<0.001,0.934
+state_retention_pct,Mode,365.63,<0.001,0.97
+state_retention_pct,Constraint,13.04,<0.001,0.277
+state_retention_pct,Transport,0.01,0.910,0.0
+state_retention_pct,Backend x Mode,87.56,<0.001,0.939
+format_compliance_pct,Backend,203306.34,<0.001,1.0
+format_compliance_pct,Mode,173852.49,<0.001,1.0
+format_compliance_pct,Constraint,2.0,0.166,0.056
+format_compliance_pct,Transport,0.0,1.000,0.0
+format_compliance_pct,Backend x Mode,174171.57,<0.001,1.0

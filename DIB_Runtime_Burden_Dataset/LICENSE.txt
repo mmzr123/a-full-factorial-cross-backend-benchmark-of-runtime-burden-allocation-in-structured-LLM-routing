@@ -1,0 +1,4 @@
+Dataset license: Creative Commons Attribution 4.0 International (CC BY 4.0).
+Code license: MIT License, unless otherwise stated in the final repository record.
+
+Before public deposition, verify that all included files comply with provider terms of service and institutional data-sharing requirements.

@@ -1,0 +1,6 @@
+event_class,count,percentage_of_15552_requests
+complete_without_failure,14910,95.87191358024691
+json_parse_error,523,3.362911522633745
+schema_invalid_output,100,0.6430041152263375
+http_400_error,18,0.11574074074074073
+rate_limit_event,1,0.006430041152263375

@@ -1,0 +1,8 @@
+item,description
+Subject,Computer Science
+Specific subject area,"Structured LLM routing, agentic orchestration, function-calling control records, and cross-backend evaluation."
+Type of data,"CSV tables, JSON schema, Python scripts, plain-text README, and repository metadata."
+Data collection,"A deterministic benchmark harness executed 48 deployment combinations over a 324-request prompt pool; the design crossed four runtime modes, three backend families, two constraint settings, and two transport settings."
+Data source location,"Digital benchmark; no physical sampling site. Curation associated with Universiti Sains Malaysia, Penang, Malaysia and Xiamen Software Vocational & Technical College, Xiamen, China."
+Data accessibility,Repository-ready data package supplied as DIB_Runtime_Burden_Dataset.zip for upload as public research data during Data in Brief submission.
+Related research article,"Zhou H., Chan H.Y., Runtime Burden Allocation for Structured LLM Routing in Agentic Expert Systems: A Full-Factorial Cross-Backend Methodology. Manuscript prepared for Expert Systems with Applications."
